@@ -33,7 +33,7 @@ function Login(){
         <div className="flex justify-center items-center min-h-screen bg-gray-100">
           <div className="max-w-md w-full space-y-8 bg-white rounded-lg shadow-md p-6">
             <div className="text-center">
-              <h1 className="text-xl font-semibold">Signup to upload Reels</h1>
+              <h1 className="text-xl font-semibold">Signin to upload Reels</h1>
             </div>
             <form onSubmit={handlesubmit} className="space-y-4">
               <input

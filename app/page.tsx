@@ -28,7 +28,6 @@ export default function Home() {
     {videos.map((video) => (
   
     <IKVideo
-      key={video._id}
       path={video.videoUrl.substring('https://ik.imagekit.io/qxqmrfa3o/'.length)}
       transformation={[{ height: 1920, width: 1080 }]}
       controls={true}

@@ -29,7 +29,7 @@ export default function Home() {
   
     <IKVideo
       path={video.videoUrl.substring('https://ik.imagekit.io/qxqmrfa3o/'.length)}
-      transformation={[{ height: 1920, width: 1080 }]}
+      transformation={[{ height: "1920", width: "1080" }]}
       controls={true}
     />
     )
